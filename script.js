@@ -20,7 +20,7 @@ function calculateBMI() {
   else if (bmi < 29.9) category = "অতিরিক্ত ওজন";
   else category = "স্থূলতা";
 
-  // ✅ টেমপ্লেট লিটারাল ঠিকভাবে ব্যবহার করা হয়েছে
+
   result.textContent = `আপনার BMI: ${bmi.toFixed(2)} (${category})`;
   result.style.color = "#fff";
 }
